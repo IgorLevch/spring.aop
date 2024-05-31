@@ -8,6 +8,7 @@ import ru.gb.spring.aop.aspect.DoNotThrowNullPointerException;
 @Slf4j
 public class BusinessService {
 
+
     @DoNotThrowNullPointerException("ERROR MESSAGE")
     public String foo(String arg){
         if (arg ==null){

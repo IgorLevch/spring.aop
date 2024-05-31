@@ -24,6 +24,7 @@ public class BusinessServiceAspect {
         log.info("This is the BEFORE ASPECT {}", arg);
     }
 
+
     @AfterThrowing("BusinessServiceMethodPointcut()")
     public void afterThrowingBusinessServiceMethod(){
         log.info("Method is finished with a mistake");

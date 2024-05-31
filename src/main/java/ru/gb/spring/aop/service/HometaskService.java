@@ -9,6 +9,7 @@ import ru.gb.spring.aop.aspect.Timer;
 public class HometaskService {
 
     String f;
+
     @Timer
     public String returnSmth(int a){
         a=a*2;
