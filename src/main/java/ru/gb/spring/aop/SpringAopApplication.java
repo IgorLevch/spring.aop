@@ -14,6 +14,7 @@ public class SpringAopApplication {
 
 
 
+
 		ConfigurableApplicationContext context =SpringApplication.run(SpringAopApplication.class, args);
 		BusinessService bS = context.getBean(BusinessService.class);
 		SecondService sS = context.getBean(SecondService.class);

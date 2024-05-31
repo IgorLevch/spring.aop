@@ -34,6 +34,7 @@ public class DoNotThrowNullPointerExceptionAspect {
         try{
             return pjp.proceed();
 
+
         } catch (NullPointerException e){
             String className = pjp.getTarget().getClass().getName();
             String methodName = pjp.getSignature().getName();
